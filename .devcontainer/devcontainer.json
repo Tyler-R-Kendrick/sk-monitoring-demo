@@ -20,6 +20,9 @@
 		"APPLICATIONINSIGHTS__CONNECTIONSTRING": {
 			"description": "Application Insights Connection String"
 		},
+		"OPENTELEMETRY__ENDPOINT":{
+			"description": "OpenTelemetry Endpoint"
+		},
 		"OPENAI__MODELID": {
 			"description": "OpenAI Model ID"
 		},

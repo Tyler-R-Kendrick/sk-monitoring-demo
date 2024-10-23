@@ -12,6 +12,8 @@ public sealed partial class TestConfiguration
 
     public static ApplicationInsightsConfig ApplicationInsights => LoadSection<ApplicationInsightsConfig>();
 
+    public static OpenTelemetryConfig OpenTelemetry => LoadSection<OpenTelemetryConfig>();
+
     public static OpenAIConfig OpenAI => LoadSection<OpenAIConfig>();
     
     public static AzureOpenAIConfig AzureOpenAI => LoadSection<AzureOpenAIConfig>();
