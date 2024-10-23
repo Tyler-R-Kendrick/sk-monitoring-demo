@@ -3,16 +3,14 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
     <AssemblyName>SemanticKernel.Community</AssemblyName>
     <RootNamespace>$(AssemblyName)</RootNamespace>
+    <NoWarn>$(NoWarn);CA1024;CA1050;CA1707;CA2007;CS1591;VSTHRD111,SKEXP0050,SKEXP0060,SKEXP0070,SKEXP0001</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
     <Using Include="Microsoft.SemanticKernel" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.SemanticKernel" />
   </ItemGroup>
 
 </Project>

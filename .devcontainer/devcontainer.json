@@ -11,8 +11,23 @@
 				"ms-dotnettools.csdevkit",
 				"GitHub.copilot",
 				"VisualStudioOnlineApplicationInsights.application-insights",
-				"ms-azuretools.azure-dev"
+				"ms-azuretools.azure-dev",
+				"ms-azuretools.vscode-docker"
 			]
+		}
+	},
+	"secrets": {
+		"APPLICATIONINSIGHTS__CONNECTIONSTRING": {
+			"description": "Application Insights Connection String"
+		},
+		"OPENAI__MODELID": {
+			"description": "OpenAI Model ID"
+		},
+		"OPENAI__APIKEY": {
+			"description": "OpenAI API Key"
+		},
+		"OPENAI__ORGID": {
+			"description": "OpenAI Organization ID"
 		}
 	}
 }
