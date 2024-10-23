@@ -1,6 +1,3 @@
-// Copyright (c) Microsoft. All rights reserved.
-
-using System.IO;
 using System.Reflection;
 
 internal static class RepoFiles
